@@ -6,6 +6,7 @@ We highly respect and protect your privacy. This Privacy Policy explains how we 
 
 ## Information We Collect
 - Basic information you provide (email, nickname, avatar)
+- Location Information (Geolocation Data)
 - Device information (model, system version)
 - Usage data (operation logs)
 
