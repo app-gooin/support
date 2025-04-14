@@ -36,7 +36,7 @@ Gooin을 이용해 주셔서 감사합니다! 더 나은 서비스를 제공하�
 ---
 
 ## 문의처
-✉️ 이메일: `support@gooinapp.com`
+✉️ 이메일: `babanmei888@gmail.com`
 
 ---
 

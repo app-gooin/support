@@ -36,7 +36,7 @@
 ---
 
 ## 聯絡我們
-✉️ 電子郵件: `support@gooinapp.com`
+✉️ 電子郵件: `babanmei888@gmail.com`
 
 ---
 

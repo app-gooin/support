@@ -36,7 +36,7 @@ Still having issues? Contact our support team.
 ---
 
 ## Contact
-✉️ Email: `support@gooinapp.com`
+✉️ Email: `babanmei888@gmail.com`
 
 ---
 

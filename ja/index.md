@@ -36,7 +36,7 @@ Gooinをご利用いただきありがとうございます！快適な体験を
 ---
 
 ## お問い合わせ
-✉️ メール: `support@gooinapp.com`
+✉️ メール: `babanmei888@gmail.com`
 
 ---
 
