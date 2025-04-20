@@ -1,0 +1,183 @@
+:root {
+    --primary-color: #4CAF50;
+    --text-color: #333;
+    --bg-color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* 导航栏样式 */
+nav {
+    background: var(--bg-color);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-links a {
+    color: var(--text-color);
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+/* 主横幅样式 */
+.hero {
+    padding: 120px 0 60px;
+    background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+/* 功能区样式 */
+.features {
+    padding: 80px 0;
+    background: #f9f9f9;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.feature-item {
+    text-align: center;
+    padding: 20px;
+}
+
+.feature-item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+/* 下载区样式 */
+.download {
+    padding: 80px 0;
+    text-align: center;
+    background: white;
+}
+
+.app-stores {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.store-button img {
+    height: 40px;
+}
+
+/* 页脚样式 */
+footer {
+    background: #333;
+    color: white;
+    padding: 40px 0;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 36px;
+    }
+    
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* ... 其他样式保持不变 ... */
+
+.download-section {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.download-section h2 {
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+.download-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.download-buttons a {
+    padding: 15px 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.download-buttons .apple {
+    background: #000;
+    color: #fff;
+}
+
+.download-buttons .google {
+    background: #fff;
+    color: #000;
+    border: 2px solid #000;
+}
+
+.download-buttons a:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .download-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .download-buttons a {
+        width: 80%;
+        text-align: center;
+    }
+}
